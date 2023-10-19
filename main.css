@@ -75,6 +75,12 @@ body {
      letter-spacing: 1.6px;
      color: #FFF;
      padding: 20px 41px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: transparent;
 }
 
  /* common styles */
@@ -169,7 +175,7 @@ body {
 
  /* process styling*/
 
- 
+
  .process {
     padding: 100px 0 100px;
 }
