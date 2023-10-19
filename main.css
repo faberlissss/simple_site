@@ -1,0 +1,208 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+ul {
+     list-style: none;
+}
+
+body {
+     font-family: 'Roboto', sans-serif;
+}
+
+.content-box {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+ /* text styles */
+
+.h1 {
+    color: #000;
+     font-size: 48px;
+     font-weight: 500;
+     margin-bottom: 60px;
+}
+
+.h2 {
+     color: #000;
+     font-size: 32px;
+     font-weight: 500;
+     margin-bottom: 50px;
+}
+
+.h5 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+.txt-main {
+     color: #727272;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 164.063%;
+     max-width: 540px;
+     margin-bottom: 65px;
+}
+
+.txt-white {
+     color: #FFF;
+     max-width: 193px;
+}
+
+ .txt-sm {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+ /* buttons styles*/
+
+
+.btn-blue {
+     background-color: #34547A;
+     border: none;
+     text-align: center;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     letter-spacing: 1.6px;
+     color: #FFF;
+     padding: 20px 41px;
+}
+
+ /* common styles */
+
+.container {
+     max-width: 1920px;
+     margin: 0 auto;
+     padding: 0 25px;
+}
+
+ /* first section styles */
+
+    /* navigation */
+
+.nav {
+     padding-top: 79px;
+     margin-bottom: 151px;
+}
+
+.nav-item {
+     display: inline-block;
+     margin-right: 42px;
+}
+
+.nav-link {
+     color: #000;
+     font-size: 16px;
+     font-weight: 400;
+     text-decoration: none;
+}
+
+.nav-link.active {
+     color: #34547A;
+}
+
+.nav-link:hover {
+     color: #34547A;
+}
+
+
+.first-section {
+     background-color: #EEEFF1;
+}
+
+    /* main */
+
+
+.main {
+     padding-bottom: 161px;
+}
+
+
+.txt-grey {
+     color: #727272;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 164.063%;
+     max-width: 540px;
+}
+
+ /* about me section */
+ 
+.about-me {
+    padding: 100px 0;
+}
+
+
+ /* section skills */
+ 
+.skills {
+    background-color: #34547A;
+    padding: 100px 0;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.skills-item {
+    display: flex;
+    gap: 20px;
+    
+}
+
+ .skills-text {
+    max-width: 71px;
+}
+
+
+ /* process styling*/
+
+ 
+ .process {
+    padding: 100px 0 100px;
+}
+
+.process-h2 {
+    margin-bottom: 50px;
+}
+
+.process-content {
+    margin-bottom: 174px;
+}
+
+.itframe {
+    max-width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, 
+    rgba(0, 0, 0, 0.65) 100%),
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat;
+}
+
+/* contacts styling */
+
+.footer {
+    background-color: #34547A;
+    padding: 50px 0 50px;
+
+}
+
+.footer-h5 {
+    margin-bottom: 20px;
+}
